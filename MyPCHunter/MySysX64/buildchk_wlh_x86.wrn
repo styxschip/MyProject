@@ -1,0 +1,2 @@
+1>warnings in directory e:\e-book\51asm\note\项目\mypchu~1\mysysx64
+1>e:\e-book\51asm\note\项目\mypchunter\mysysx64\mysysx64.c(358) : warning C4022: 'memcpy' : pointer mismatch for actual parameter1>e:\e-book\51asm\note\项目\mypchunter\mysysx64\mysysx64.c(419) : warning C4022: 'memcpy' : pointer mismatch for actual parameter 21>e:\e-book\51asm\note\项目\mypchunter\mysysx64\mysysx64.c(531) : warning C4047: 'initializing' : 'ULONG64' differs in levels of indirection from 'void *'

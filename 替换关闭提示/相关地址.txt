@@ -1,0 +1,29 @@
+
+text.EXE 显示出界面后，
+00C30AB0 地址中有字符串：
+Setup is not complete xxxx
+
+
+
+窗口类过程函数：
+wizardDlg
+10003624 >  55              push    ebp
+
+GetClassLong 再 SetClassLong理论上可以，但是替换窗口类过程函数后，堆新生成的窗口才生效，老窗口
+没效果，最关键的问题是Cancel按钮还会弹旧的提示框。
+
+
+点关闭按钮和Cancel按钮，都会调用这两处的函数，但是不确定只有关闭采用这两个函数：
+1000D1B3    E8 17740000     call    100145CF
+
+1000903F    E8 38410000     call    1000D17C
+
+
+
+
+
+
+
+
+
+

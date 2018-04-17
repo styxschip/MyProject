@@ -1,0 +1,27 @@
+// ICommand.cpp: implementation of the ICommand class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "RemoteMgr_Clt.h"
+#include "ICommand.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+ICommand::ICommand()
+{
+
+}
+
+ICommand::~ICommand()
+{
+
+}

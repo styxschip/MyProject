@@ -1,0 +1,15 @@
+
+
+AMD64_OBJECTS=\
+ $(OBJ_PATH)\$O\asmx64.obj \
+ $(OBJ_PATH)\$O\mysysx64.obj \
+
+
+
+
+
+# lowercased
+BASEDIR=d:\winddk\7600.16385.1
+OBJECT_ROOT=d:\winddk\7600.16385.1
+MAKEDIR_LOWERCASE=e:\e-book\51asm\note\OBJ_PATH=e:\e-book\51asm\note\CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0

@@ -1,0 +1,16 @@
+TARGETNAME=MySysX64
+#TARGETPATH=$(BASEDIR)\lib
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+
+INCLUDES=.\
+
+#这是64位的，32位的可以改为I386_SOURCES 
+#注意必须有 amd64 这个目录 否则编译报错 提示 
+#NMAKE : fatal error U1073: don't know how to make xxx.obj
+AMD64_SOURCES = amd64\AsmX64.asm
+
+SOURCES=MySysX64.c
+
+
+
